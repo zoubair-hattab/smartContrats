@@ -1,0 +1,86 @@
+{
+    "key": "5",
+    "chainId": 5,
+    "chainName": "Goerli",
+    "name": "Ethereum Testnet Goerli",
+    "shortName": "Goerli",
+    "slug": "goerli",
+    "network": "goerli",
+    "unknown": false,
+    "rpc": "https://goerli.infura.io/v3/{{INFURA_KEY}}",
+    "ws": "wss://goerli.infura.io/ws/v3/{{INFURA_KEY}}",
+    "loggingRpc": "https://eth-goerli.alchemyapi.io/v2/{{ALCHEMY_KEY}}",
+    "explorer": "https://goerli.etherscan.io",
+    "explorerName": "Etherscan",
+    "subgraph": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-goerli-v2",
+    "poolsUrlV2": "",
+    "subgraphs": {
+      "main": [
+        "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-goerli-v2"
+      ],
+      "aave": "https://api.thegraph.com/subgraphs/name/aave/protocol-v2",
+      "gauge": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-gauges-goerli",
+      "blocks": "https://api.thegraph.com/subgraphs/name/blocklytics/goerli-blocks"
+    },
+    "supportsEIP1559": true,
+    "supportsElementPools": true,
+    "blockTime": 12,
+    "nativeAsset": {
+      "name": "Ether",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "symbol": "ETH",
+      "decimals": 18,
+      "deeplinkId": "ether",
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png",
+      "minTransactionBuffer": "0.05"
+    },
+    "addresses": {
+      "merkleRedeem": "",
+      "merkleOrchard": "0x42A70F9D73c7E08a9527d474Dc473C55854768A7",
+      "multicall": "0x5BA1e12693Dc8F9c48aAD8770482f4739bEeD696",
+      "authorizer": "0xc348f4c5D30A227637cb8CBEDa9853daB221Bfe9s",
+      "vault": "0x5d991F02ba90e886ed030414c8323793164BF4Bd",
+      "weightedPoolFactory": "0x52d03d754F9b65139b80D20ee73B5E434062bcA5",
+      "stablePoolFactory": "0x6D4f2D9b725e7aeCcae8B632c5C6f126319AeA8F",
+      "weth": "0xdFCeA9088c8A88A76FF74892C1457C17dfeef9C1",
+      "stETH": "0x1643E812aE58766192Cf7D2Cf9567dF2C37e9B7F",
+      "wstETH": "0x6320cD32aA674d2898A68ec82e869385Fc5f7E2f",
+      "lidoRelayer": "0x0358DD3572855Bd06D8D0AD1028DaB3dcb1932CA",
+      "balancerHelpers": "0x3dc075e5DBB042F04aA3C2a0194df4e90787e432",
+      "batchRelayer": "0x900947cb721E797fF6653502044028bF30eAB21B",
+      "gaugeFactory": "0xe73784717326019Ef9477B8180B4e3be74a6aD37",
+      "balancerMinter": "0xF504F66D50a0B5581AD9a5419407D465918a969E",
+      "gaugeController": "0xD994a7A825793Ff5267EF56b2a6d4A77C8e68A41",
+      "tokenAdmin": "0xAdec9e602a7c27D0b704A493820366a1e0328d46",
+      "veBAL": "0xb4EF672693352ac824854Da1ab8c7f3f6295F85B",
+      "veDelegationProxy": "0xF2bcEEA3587DBb5d79395a9379Efb39317a5Ec6C",
+      "veBALHelpers": "0x4199567B9bB3Ece8ab83fd1B0Fab9419A9c7a341",
+      "feeDistributor": "0xbCbE513f4D09998bB65Ee244Fd47377ac23E43bD",
+      "feeDistributorDeprecated": "0xbCbE513f4D09998bB65Ee244Fd47377ac23E43bD",
+      "faucet": "",
+      "gaugeRewardsHelper": ""
+     
+    },
+    "keys": {
+      "infura": "daaa68ec242643719749dd1caba2fc66",
+      "alchemy": "oGLgncMVHNWltnK0nTfiryxQ6gYemKQO"
+    },
+    "strategies": {
+      "0": {
+        "type": "0",
+        "name": "stablePool"
+      },
+      "1": {
+        "type": "1",
+        "name": "weightedPool"
+      },
+      "2": {
+        "type": "2",
+        "name": "weightedPool"
+      }
+    },
+    "gauges": {
+      "type": 2,
+      "weight": 100
+    }
+  }
